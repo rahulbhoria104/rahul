@@ -92,6 +92,7 @@ define( 'WP_DEBUG', false );
 
 
 /* That's all, stop editing! Happy publishing. */
+set_time_limit(1200);
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
